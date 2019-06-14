@@ -8,7 +8,8 @@
 	<script src="jscript.js"></script>
 </head>
 
-<body>
+<body background="./images/Ruins.jpg" style="background-repeat: no-repeat;
+  background-attachment: fixed; background-size: cover;">
 	<div id="holder">
 		<div id="topHolder">
 			<h1>TrumpWordsVSTrump.com</h1>
@@ -28,7 +29,7 @@
 		
 	</div>
 	<div class="mainButtonContainer">
-		<button class="mainButton">See Donald's Doublethink</button>
+		<button onclick="window.location.href = './trumpTweets.html';" class="mainButton">See Donald's Doublethink</button>
 		
 	</div>
 	<div class="mainButtonContainer" style="margin-top: 18px;">
@@ -126,15 +127,17 @@
 			
 			<p style="margin-bottom:200px;">
 			</p>
-		</div>
-	</article>
-	<div class="footer-wrapper">
+		<div class="footer-wrapper">
     <section class="footer-nav">
 		<a href="./index.html">Home</a>
 		<a href="./underConstruction.html">About</a>
 		<a class="last-footer-nav" href="./underConstruction.html">Terms of Service</a>
 	</section>
   </div>
+		</div>
+	
+	</article>
+	
   
  	<script>
 	var coll = document.getElementsByClassName("collapsible");
