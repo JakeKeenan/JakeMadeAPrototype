@@ -380,6 +380,63 @@ blockquote{
 	background-color: black;
 }
 
+.tweet{
+	background-color: #190101;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+	padding: 20px;
+}
+
+.more {
+  text-decoration: none;
+  font-size: 28px;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.more:hover {
+  background-color: #555;
+  color: black;
+}
+
+.previous {
+  background-color: white;
+  color: black;
+}
+
+.next {
+  background-color: var(--color-primary-0);
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.pageSelect{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.pages{
+	display: flex;
+	list-style-type: none;
+	padding-inline-start: 0px;
+	margin-block-end: 0em;
+	color: var(--color-secondary-1-1);
+	font-family: Roboto Mono, Georgia, Helvetica, sans-serif;
+	font-size: 28px;
+	padding: 0px;
+	margin: 0px;
+}
+.pages a{
+	color: var(--color-secondary-1-1);
+}
+
+
+
 	
 
 
