@@ -71,10 +71,10 @@
 		</section>
 		<section class="battery-cable-segments">
 			<!-- side nav -->
-			<nav id="sidebar">
+			<nav class="sidebar">
 
 				<ul class="list-unstyled components">
-					<li class="active">
+					<li class="active dropdown">
 						<a href="#segmentOne" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Segment One</a>
 						<ul class="collapse list-unstyled" id="segmentOne">
 							<li class="active">
@@ -88,7 +88,7 @@
 							</li>
 						</ul>
 					</li>
-					<li>
+					<li class="dropdown">
 						<a href="#segmentTwo" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Segment Two</a>
 						<ul class="collapse list-unstyled" id="segmentTwo">
 							<li>
@@ -102,7 +102,7 @@
 							</li>
 						</ul>
 					</li>
-					<li>
+					<li class="dropdown">
 						<a href="#segmentThree" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Segment Three</a>
 						<ul class="collapse list-unstyled" id="segmentThree">
 							<li>
@@ -116,7 +116,7 @@
 							</li>
 						</ul>
 					</li>
-					<li>
+					<li class="dropdown">
 						<a href="#segmentFour" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Segment Four</a>
 						<ul class="collapse list-unstyled" id="segmentFour">
 							<li>
@@ -131,6 +131,10 @@
 						</ul>
 					</li>
 			</nav>
+			<div class="segmentSelector_results">
+				<div id="segment_prompt"> Select a segment and catagory. </div>
+			</div>
+			
 		</section>
 	</div>
 </body>
