@@ -1,0 +1,155 @@
+
+:root{
+	--background: #E4E4E4;
+}
+
+body{
+	max-width: 960px;
+	margin: 0 auto;
+	text-rendering: optimizeLegibility;
+	font-family: arial, helvetica, sans-serif;
+	background-color: var(--background);
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+h2{
+	font-weight: bold;
+	padding: 0 0 0.5em 0;
+}
+
+header{
+	display: block;
+}
+
+.logo {
+	position: absolute;
+	z-index: 999;
+}
+
+[role="banner"]{
+	padding: 15px;
+}
+
+[role="banner"] nav{
+	position: relative;
+	background: none;
+	box-shadow: none;
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+	right: 0px;
+	z-index: 300;
+	width: 100%;
+}
+
+[role="banner"] nav ul:first-child{
+	padding-top: 1%;
+}
+
+[role="banner"] nav ul{
+	list-style-type: none;
+	text-align: left;
+	margin-bottom: 0px;
+}
+
+[role="banner"] nav ul li:first-child{
+	float: right;
+	margin-right: 0px;
+	position: relative;
+	padding: 0 13px;
+	top: 1vh;
+}
+
+[role="banner"] nav ul li:nth-child(2){
+	margin-left: 20%;
+	font-size: 36px;
+}
+
+[role="banner"] nav li{
+	display: inline-block;
+	padding: 0 0 0.5em 0;
+}
+
+[role="banner"] nav ul li a.active{
+	color: rgb(182, 54, 55);
+}
+
+[role="banner"] nav ul li a{
+	padding: 0 13px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+}
+
+#logout{
+	
+}
+
+#sub-nav{
+	height: 0px;
+	margin-left: -18%;
+}
+
+.billboard{
+	
+}
+
+.subpage-billboard{
+	background-image: url(images/t680Truck.jpg);
+	background-size: cover;
+}
+
+.subpage-billboard h1{
+	color: #000000;
+    font-family: 'Oswald', arial, helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 5em;
+    font-weight: 700;
+    line-height: 1.2em;
+    padding-left: 40px;
+	margin: 0;
+}
+
+.subpage-billboard-content{
+	background-image: linear-gradient(to right, rgba(240, 240, 240, 1), rgba(256, 256, 256, 0)); 
+	max-width: 100%;
+	min-height: 400px;
+	padding: 50px 25px 25px 25px;
+	width:586px;
+}
+
+.subpage-billboard .breadcrumbs {
+	border-bottom: 2px solid #c9c7c8;
+	list-style: none;
+	margin-bottom: 1.5em;
+	padding-bottom: 1.5em;
+	padding-left: 40px;
+	text-transform: uppercase;
+}
+
+.subpage-billboard .breadcrumbs li{
+	display: inline-block;
+}
+
+.subpage-billboard .breadcrumbs a{
+	color: #999999;
+}
+
+.subpage-billboard .breadcrumbs li:not(:first-child)::before {
+    content: "/";
+    display: inline-block;
+    margin: 0 0.25em;
+}
+
+.subpage-billboard .breadcrumbs li:last-child a {
+    color: #5e5e5e;
+}
+
+
+
+
+
